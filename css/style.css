@@ -1,5 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,500&display=swap');
+ .envoltura {
+        width: 100%;
+        background: linear-gradient(grey, rgb(134, 224, 224));
+    }
 
 *{
     margin: 0;
@@ -13,38 +15,33 @@
     
 min-height:50vh;
     width:100%;
-   
-    
     background-color:rgb(0, 0, 0);
     background-image:url(img/banner.gif);
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-}
+    }
 
-.img1 {
-    padding-top: 50px;
-    background-image: url(img/img11.png);
-    height: 50vh;
-    width: 100%;
-    background-size: cover;
-    object-fit: cover;
-    background-attachment: fixed;
-    
 
+
+.video {
+    width: 100%;;
+    height: 100%;
 }
 
 .workshop {
-    background-image: url(img/workshop.webp);
-    min-height:70vh;
-    width:100%;
+    background-image: url(img/workshop.png);
+    min-height:30vh;
     background-color:rgb(0, 0, 0);
     padding-top: 70px;
     background-position:center;
     background-repeat:no-repeat;
-    background-size:auto;
+    background-size:cover;
     display: flex;
     flex-wrap: wrap;
+    scale: auto;
+    overflow: hidden;
+  
 }
 
 .muestra{
@@ -54,7 +51,7 @@ min-height:50vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(252, 250, 250);
     background-position:center;
     background-repeat:no-repeat;
     background-size:auto;
@@ -67,9 +64,7 @@ nav{
     align-items: center;
     flex-wrap: wrap;
     padding: 5px 0;
-   
-    
-    
+         
 }
 
 
@@ -125,10 +120,97 @@ text-container{
 
 h1{
     text-align: center ;
-    padding-top: 170px;
-    color:#474545;
-    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color:#ffffff;
+    font-size: 10vw;
     font-weight: 800;
+    font-variant-numeric: normal;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    font-variant-caps: normal;
+    font-stretch: auto;
+    width: 100%;
+    background: linear-gradient(aqua, grey);
+    border-radius: 30px;
+}
+
+
+
+h2 {
+   
+    text-align: center ;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color:#ffffff;    
+    font-size: 6vw;
+    font-weight: 800;
+    font-variant-numeric: normal;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    font-variant-caps: normal;
+    font-stretch: 100%;
+    background: linear-gradient(aqua, grey);
+    border-radius: 30px;
+         
+}
+
+h3{
+    text-align: center ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#fffefe;
+    font-size: 4vw;
+    font-weight: 400;
+    font-variant-numeric: normal;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    font-variant-caps: normal;
+    font-stretch: 100%;
+  
+      
+}
+
+h4 {
+    
+    text-align: center ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#f0f0f0;    
+    font-size: 5vw;
+    font-weight: 800;
+    font-variant-numeric: normal;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    font-variant-caps: normal;
+    font-stretch: 100%;
+    background: linear-gradient(aqua, grey);
+    border-radius: 30px;
+    
+    
+}
+
+h5 {
+    text-align: center ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#eeeeee;
+    font-size: 20px;
+    font-weight: 700;
+    font-variant-numeric: normal;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    font-variant-caps: normal;
+    font-stretch: 100%;
+
+}
+H6 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 400;
     font-variant-numeric: normal;
     font-variant-ligatures: normal;
     font-variant-east-asian: normal;
@@ -140,7 +222,7 @@ h1{
 .h11 {
     text-align: center ;
     padding-top: 170px;
-    color:#474545;
+    color:#e6e4e4;
     font-size: 30px;
     font-weight: 400;
     font-variant-numeric: normal;
@@ -168,87 +250,10 @@ h1{
 }
 
 .basico {
-    padding-left: 405px;
-    padding-right: 405px;
+    width: 100%;
     text-align:justify;
     position: relative;
-}
-
-h2 {
-    margin: auto;
-    text-align: center ;
-    padding-top: 70px;
-    color:#474545;    
-    font-size: 28px;
-    font-weight: 800;
-    font-variant-numeric: normal;
-    font-variant-ligatures: normal;
-    font-variant-east-asian: normal;
-    font-variant-caps: normal;
-    font-stretch: 100%;
-     display: block;
-    max-width: 900px;
-}
-
-h3{
-    text-align: justify ;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color:#474545;
-    font-size: 20px;
-    font-weight: 400;
-    font-variant-numeric: normal;
-    font-variant-ligatures: normal;
-    font-variant-east-asian: normal;
-    font-variant-caps: normal;
-    font-stretch: 100%;
-    display: block;
-}
-
-h4 {
-    margin: auto;
-    text-align: center ;
-    padding-top: 70px;
-    color:#474545;    
-    font-size: 28px;
-    font-weight: 800;
-    font-variant-numeric: normal;
-    font-variant-ligatures: normal;
-    font-variant-east-asian: normal;
-    font-variant-caps: normal;
-    font-stretch: 100%;
-     display: block;
-    max-width: 900px;
-}
-
-h5 {
-    text-align: justify ;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color:#474545;
-    font-size: 20px;
-    font-weight: 400;
-    font-variant-numeric: normal;
-    font-variant-ligatures: normal;
-    font-variant-east-asian: normal;
-    font-variant-caps: normal;
-    font-stretch: 100%;
-    display: block;
-
-}
-H6 {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color:#474545;
-    font-size: 20px;
-    font-weight: 400;
-    font-variant-numeric: normal;
-    font-variant-ligatures: normal;
-    font-variant-east-asian: normal;
-    font-variant-caps: normal;
-    font-stretch: 100%;
-    display: block;
+    display: inline;
 }
 
 
@@ -259,7 +264,7 @@ H6 {
 }
 
 .Submit {
-    font-family: 'Roboto', sans-serif; 
+    font-family:  'Open Sans', sans-serif; 
     font-size: 13px;
     font-weight: 500;
     background-color: #1E90FF;
@@ -276,7 +281,8 @@ H6 {
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform ;
     transition-property: box-shadow, transform ;
-    position: relative;
+    padding-top: 5px;
+    
 }
 
 .Submit button:hover{
@@ -286,10 +292,34 @@ H6 {
 }
 
 .datos {
-    padding-left: 500px;
-    padding-right: 500px;
-    text-align: justify;
-    position: relative;
+  
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#ebebeb;
+    font-size: 20px;
+    font-weight: 400;
+    font-variant-numeric: normal;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    font-variant-caps: normal;
+    font-stretch: 100%;
+    max-width: 1200px;
+}
+
+.datos2 {
+  
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#ebebeb;
+    font-size: 20px;
+    font-weight: 400;
+    font-variant-numeric: normal;
+    font-variant-ligatures: normal;
+    font-variant-east-asian: normal;
+    font-variant-caps: normal;
+    font-stretch: 100%;
 }
 
 
@@ -311,14 +341,14 @@ H6 {
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    width: 48.5%;
+    width: 49%;
     height: 40px;
 }
 .form__input2 {background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    width: 48.9%;
+    width: 49%;
     height: 40px;
    
 }
@@ -421,3 +451,4 @@ H6 {
     text-decoration: none;
     
 }
+
